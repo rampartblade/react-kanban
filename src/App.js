@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Card, Button, Row, Col } from 'react-bootstrap';
-import CardHeader from 'react-bootstrap/esm/CardHeader';
 import { backlog, inProgress, evaluation, done, backToLog } from './store/action'
 
 function App() {
@@ -74,6 +73,7 @@ function App() {
                           </Card.Footer>
                         </Card>
                       }
+                      return '' 
                     })}
                   </Card.Body>
                 </Card>
@@ -97,6 +97,7 @@ function App() {
                           </Card.Footer>
                         </Card>
                       }
+                      return '' 
                     })}
                   </Card.Body>
                 </Card>
@@ -120,6 +121,7 @@ function App() {
                           </Card.Footer>
                         </Card>
                       }
+                      return '' 
                     })}
                   </Card.Body>
                 </Card>
@@ -142,6 +144,7 @@ function App() {
                           </Card.Footer>
                         </Card>
                       }
+                      return '' 
                     })}
                   </Card.Body>
                 </Card>
